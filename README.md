@@ -1,84 +1,197 @@
-# 👨‍💻 AguirreNM — Soporte TI | Help Desk | Sistemas
+# AguirreNM — Desarrollo de Software | Java | SQL
 
-**Técnico en Sistemas de Información** con formación en IDAT Lima.  
-Especializado en **soporte técnico a usuarios, resolución de incidentes y documentación ITIL**.  
-Desarrollo software empresarial en **.NET 8, Java/Spring Boot y Angular** — lo que me permite diagnosticar problemas desde la raíz del sistema, no solo la superficie.
+Estudiante de **Desarrollo de Sistemas de Información en IDAT Lima**, orientado al desarrollo de software y aplicaciones empresariales.
 
----
+Tengo experiencia desarrollando proyectos con **Java, Spring Boot, SQL, MySQL, C# y ASP.NET Core**, trabajando con APIs REST, persistencia de datos, autenticación, reglas de negocio y estructuras de bases de datos.
 
-## 🛠️ Stack Técnico
-
-### Soporte & Infraestructura
-- **SO**: Windows 10/11, Windows Server 2019
-- **Redes**: TCP/IP, DNS, DHCP, VPN, RDP, TeamViewer, AnyDesk
-- **Active Directory**: Gestión de usuarios, grupos, GPOs, reset de contraseñas
-- **Office 365**: Outlook, Teams, SharePoint, OneDrive — soporte y configuración
-- **LMS**: Moodle — administración, carga de cursos, gestión de accesos
-- **Ticketing**: Gestión de incidencias bajo estándar ITIL
-
-### Desarrollo Tecnológico
-| Tecnología | Nivel | Uso |
-|---|---|---|
-| **C# / ASP.NET Core 8** | Avanzado | API REST, MVC, Identity, EF Core |
-| **Java / Spring Boot** | Intermedio| APIs REST, backend empresarial |
-| **Angular** | Intermedio | Formularios, componentes |
-| **React / TypeScript** | Intermedio | Componentes, estado, Vite |
-| **SQL Server** | Intermedio | Diseño de BD, EF Core Migrations |
-| **PowerShell** | Básico | Scripts administrativos IT |
-
-**Librerías:** ClosedXML · MailKit · Swagger/OpenAPI · ASP.NET Core Identity · Entity Framework Core · ImageSharp
+Mi objetivo es seguir desarrollándome profesionalmente en el área de programación, participando en la implementación, mantenimiento, pruebas y documentación de aplicaciones bajo buenas prácticas de desarrollo.
 
 ---
 
-## 📁 Proyectos
+## Perfil Técnico
 
-### 🎫 [HelpDesk — Reporte de Incidencias TI](https://github.com/AguirreNM/HelpDesk-reporte-incidentes-api)
-> API REST en **ASP.NET Core 8** para gestión completa del ciclo de vida de incidencias técnicas, alineada al estándar ITIL.
+| Tecnología              | Nivel      | Aplicación                                             |
+| ----------------------- | ---------- | ------------------------------------------------------ |
+| **Java**                | Intermedio | Desarrollo de APIs REST y aplicaciones backend         |
+| **Spring Boot**         | Intermedio | APIs REST, servicios, seguridad y lógica de negocio    |
+| **SQL / MySQL**         | Intermedio | Consultas, relaciones, persistencia y gestión de datos |
+| **C# / ASP.NET Core 8** | Avanzado   | APIs REST, MVC, Entity Framework Core                  |
+| **Angular**             | Intermedio | Interfaces y consumo de APIs REST                      |
+| **Git / GitHub**        | Intermedio | Control de versiones y gestión de proyectos            |
+| **Maven**               | Intermedio | Gestión y construcción de proyectos Java               |
+| **Swagger / OpenAPI**   | Intermedio | Documentación y prueba de APIs                         |
+| **PowerShell**          | Básico     | Automatización y tareas administrativas                |
 
-**Endpoints principales:**
-| Método | Ruta | Descripción |
-|---|---|---|
-| `GET` | `/api/incidencias` | Listar todas las incidencias |
-| `POST` | `/api/incidencias` | Registrar nueva incidencia |
-| `PUT` | `/api/incidencias/{id}` | Resolver una incidencia |
-| `GET` | `/api/reporte` | Reporte de frecuencias en JSON |
-| `GET` | `/api/reporte/exportar` | Descargar reporte en Excel |
-| `POST` | `/api/reporte/enviar` | Enviar reporte por correo SMTP |
+### Backend
 
-**Reporte Excel — 3 hojas:**
-- 📊 Resumen Ejecutivo con KPIs y verificación de SLA
-- 📈 Frecuencias por tipo de problema
-- 📧 Plantillas de respuesta automática
+* Java 17 / Java 21
+* Spring Boot
+* Spring Data JPA
+* Hibernate
+* Spring Security
+* JWT
+* REST API
+* Maven
+* Entity Framework Core
+* ASP.NET Core
 
-**Stack:** `ASP.NET Core 8` · `ClosedXML` · `MailKit` · `Swagger/OpenAPI`
+### Bases de Datos
+
+* MySQL
+* SQL Server
+* Diseño de tablas y relaciones
+* Consultas SQL
+* Persistencia con JPA/Hibernate
+* Entity Framework Core
+* Migraciones de base de datos
+
+### Herramientas
+
+* Git
+* GitHub
+* Swagger/OpenAPI
+* Postman
+* Visual Studio
+* Visual Studio Code
+* IntelliJ IDEA
+* Microsoft Office
 
 ---
 
-### ☕ [Cafetería — Sistema de Gestión Web](https://github.com/AguirreNM/Cafeteria)
-> Sistema web completo en **ASP.NET Core 8 MVC** con autenticación por roles, carrito de compras, gestión de inventario y reportes exportables.
+## Proyectos Destacados
 
-| Feature en el proyecto | Equivalente en soporte TI |
-|---|---|
-| Roles Admin / Cliente con Identity | Gestión de permisos por perfil |
-| Dashboard con métricas y alertas de stock | Panel con KPIs de mesa de ayuda |
-| Reportes exportables a Excel | Reportes de incidencias para gerencia |
-| Bloqueo tras 5 intentos fallidos | Política de seguridad corporativa |
+### [Sistema Hotel API](https://github.com/AguirreNM/Sistema-Hotel-API)
 
-**Stack:** `ASP.NET Core 8 MVC` · `Entity Framework Core 8` · `ASP.NET Core Identity` · `SQL Server` · `ClosedXML` · `Bootstrap 5`
+API REST desarrollada con **Java y Spring Boot** para la gestión de un sistema hotelero.
+
+El proyecto implementa autenticación y autorización mediante JWT, gestión de clientes, búsqueda de habitaciones, reservas, servicios adicionales y facturación.
+
+**Tecnologías:**
+
+`Java 17` · `Spring Boot 3` · `Spring Security` · `JWT` · `Spring Data JPA` · `Hibernate` · `MySQL` · `Maven` · `MapStruct`
+
+**Aspectos desarrollados:**
+
+* Desarrollo de endpoints REST.
+* Implementación de servicios y lógica de negocio.
+* Persistencia de información mediante Spring Data JPA.
+* Modelado de entidades y relaciones con la base de datos.
+* Autenticación y autorización mediante JWT.
+* Manejo de excepciones.
+* Separación por capas de controller, service, repository, model y DTO.
+* Documentación de endpoints y configuración del proyecto.
+* Estructura preparada para pruebas unitarias e integración.
+
+Este proyecto representa mi principal experiencia práctica con **Java, Spring Boot y MySQL**.
 
 ---
 
-## 🎓 Formación
+### [Integra API — Sistema de Control de Inventario](https://github.com/AguirreNM/Integra-api)
 
-- **Desarrollo de Sistemas de Información** — IDAT Lima (en curso)
+API REST desarrollada con **Java 21 y Spring Boot** para gestionar productos, categorías, usuarios y ventas.
+
+El sistema incorpora reglas de negocio para controlar el stock y permisos de acceso según el rol del usuario.
+
+**Tecnologías:**
+
+`Java 21` · `Spring Boot` · `MySQL` · `JWT` · `Maven`
+
+**Aspectos desarrollados:**
+
+* Creación y mantenimiento de APIs REST.
+* Operaciones CRUD para categorías, productos y usuarios.
+* Gestión de ventas.
+* Validación de stock antes de registrar operaciones.
+* Actualización y recalculo de inventario.
+* Control de acceso mediante roles.
+* Autenticación mediante JWT.
+* Persistencia de datos con MySQL.
+* Manejo de reglas de negocio y operaciones transaccionales.
+* Configuración y documentación para ejecutar el proyecto.
+
+Este proyecto demuestra experiencia práctica en **programación Java, SQL/MySQL, APIs REST y lógica de negocio**.
 
 ---
 
-## 📫 Contacto
+### [Persona-Pais — Aplicación Web](https://github.com/AguirreNM/Persona-Pais)
 
-- 📧 nayiph.a.g@gmail.com
-- 📍 Lima, Perú — disponible para roles en sitio, campo o híbrido
+Aplicación web desarrollada con una arquitectura separada entre **frontend y backend**, utilizando Spring Boot para la API REST, MySQL para la persistencia de datos y Angular para la interfaz.
+
+**Tecnologías:**
+
+`Java 21` · `Spring Boot` · `Spring Data JPA` · `MySQL` · `Maven` · `Angular`
+
+**Aspectos desarrollados:**
+
+* Desarrollo de API REST con Spring Boot.
+* Operaciones CRUD para personas y países.
+* Persistencia mediante Spring Data JPA.
+* Diseño de relaciones entre entidades.
+* Integración entre frontend y backend mediante HTTP.
+* Desarrollo de interfaz con Angular.
+* Configuración de conexión con MySQL.
+* Documentación de instalación y ejecución.
+
+El proyecto incluye operaciones **GET, POST, PUT y DELETE**, permitiendo practicar el ciclo completo de desarrollo de un módulo CRUD.
 
 ---
 
-*Enfoque: no solo resolver el problema — documentar la solución para que no vuelva a ocurrir.*
+### [HelpDesk — API de Gestión de Incidencias](https://github.com/AguirreNM/HelpDesk-reporte-incidentes-api)
+
+API REST desarrollada con **ASP.NET Core 8** para gestionar incidencias técnicas y generar reportes.
+
+Aunque está desarrollada en C#, el proyecto demuestra experiencia aplicable al desarrollo empresarial: construcción de APIs, persistencia de datos, generación de reportes, envío de información por correo y documentación de funcionalidades.
+
+**Tecnologías:**
+
+`ASP.NET Core 8` · `Entity Framework Core` · `SQL Server` · `ClosedXML` · `MailKit` · `Swagger/OpenAPI`
+
+**Aspectos desarrollados:**
+
+* Desarrollo de endpoints REST.
+* Registro y actualización de incidencias.
+* Persistencia de información.
+* Generación de reportes.
+* Exportación de información a Excel.
+* Integración con servicios de correo.
+* Documentación de APIs mediante Swagger.
+* Implementación de reglas para la gestión de incidencias.
+
+---
+
+## Conocimientos Aplicables al Puesto
+
+* Desarrollo de bloques de código y módulos bajo una estructura organizada.
+* Desarrollo y mantenimiento de APIs REST.
+* Programación orientada a objetos.
+* Manejo de bases de datos relacionales.
+* Consultas y operaciones SQL.
+* Implementación de operaciones CRUD.
+* Integración entre aplicaciones y bases de datos.
+* Implementación de autenticación y autorización.
+* Identificación y corrección de errores.
+* Pruebas y validación de funcionalidades.
+* Documentación técnica y de proyectos.
+* Control de versiones con Git y GitHub.
+* Manejo de Microsoft Office.
+
+---
+
+## Formación
+
+**Desarrollo de Sistemas de Información**
+IDAT Lima — En curso
+
+---
+
+## Contacto
+
+**Correo:** [nayiph.a.g@gmail.com](mailto:nayiph.a.g@gmail.com)
+**Ubicación:** Lima, Perú
+**GitHub:** [github.com/AguirreNM](https://github.com/AguirreNM)
+
+---
+
+## Objetivo Profesional
+
+Busco desarrollarme profesionalmente en el área de **programación y desarrollo de software**, aportando mis conocimientos en **Java, Spring Boot, SQL y desarrollo de APIs**, mientras continúo fortaleciendo mis habilidades en desarrollo, pruebas, mantenimiento y documentación de aplicaciones.
