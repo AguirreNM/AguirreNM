@@ -15,7 +15,7 @@ Mi objetivo es seguir desarrollándome profesionalmente en el área de programac
 | **Java**                | Intermedio | Desarrollo de APIs REST y aplicaciones backend         |
 | **Spring Boot**         | Intermedio | APIs REST, servicios, seguridad y lógica de negocio    |
 | **SQL / MySQL**         | Intermedio | Consultas, relaciones, persistencia y gestión de datos |
-| **C# / ASP.NET Core 8** | Avanzado   | APIs REST, MVC, Entity Framework Core                  |
+| **C# / ASP.NET Core 8** | Intermedio   | APIs REST, MVC, Entity Framework Core                  |
 | **Angular**             | Intermedio | Interfaces y consumo de APIs REST                      |
 | **Git / GitHub**        | Intermedio | Control de versiones y gestión de proyectos            |
 | **Maven**               | Intermedio | Gestión y construcción de proyectos Java               |
